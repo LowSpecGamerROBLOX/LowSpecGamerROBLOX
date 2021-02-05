@@ -105,3 +105,6 @@ local function ExecuteScript()
 end
 
 ExecuteScript()
+
+wait(13)
+script:Destroy()
