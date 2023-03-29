@@ -1,0 +1,15 @@
+diff --git a/sub/configator/src/configator.c b/sub/configator/src/configator.c
+index f433350..dee8e97 100644
+--- a/sub/configator/src/configator.c
++++ b/sub/configator/src/configator.c
+@@ -42,6 +42,10 @@ static uint16_t search(struct configator_param* config, uint16_t len, char* key)
+
+                        if (len == 2)
+                        {
++                if (disc < 0) {
++                    i = 0;
++                }
++
+                                break;
+                        }
+                }
